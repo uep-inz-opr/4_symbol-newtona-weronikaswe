@@ -1,8 +1,11 @@
 import math
 
 new = input()
-n = int(new[0])
-k = int(new[2])
+if len(new)==3:
+    n = int(new[0])
+    k = int(new[2])
+else:
+    print(0)
 
 if n == 1 or n == k:
     print(1)
@@ -14,4 +17,3 @@ else:
     y = math.factorial(k)
     sym = x//(y*(n-k))
     print((sym))
-    
