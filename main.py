@@ -20,9 +20,9 @@ def symbol(n,k):
         return wynik
 
 def main():
-    symbol=input()
-    n=symbol[0]
-    k=symbol[2]
+    wsymbol=input()
+    n=wsymbol[0]
+    k=wsymbol[2]
     wynik=symbol(n,k)
     print(wynik)
 
