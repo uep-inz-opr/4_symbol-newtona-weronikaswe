@@ -19,11 +19,8 @@ def symbol(n,k):
         wynik = x / (y * z)
         return wynik
 
-def main():
-    wsymbol=input()
-    n=wsymbol[0]
-    k=wsymbol[2]
-    wynik=symbol(n,k)
-    print(wynik)
+oblicz = symbol(input())
+print(oblicz)
+
 
 
