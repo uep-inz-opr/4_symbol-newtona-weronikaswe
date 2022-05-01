@@ -1,7 +1,7 @@
 import math
 
 new = input()
-print(new)
+print(len(new))
 if len(new)==3:
     n = int(new[0])
     k = int(new[2])
