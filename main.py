@@ -14,7 +14,7 @@ if len(symbol) == 3:
 elif len(symbol) == 5:
     n = int(symbol[0] + symbol[1])
     k = int(symbol[3] + symbol[4])
-wynik=ile_symbol(n,k)
+wynik=int(ile_symbol(n,k))
 print(wynik)
 
 
