@@ -5,8 +5,6 @@ new = input()
 if len(new)==3:
     n = int(new[0])
     k = int(new[2])
-    print(n)
-    print(k)
     if n == 1 or n == k:
         print(1)
     if k > n:
@@ -19,6 +17,8 @@ if len(new)==3:
 elif len(new)==5:
     n = int(new[0]+new[1])
     k = int(new[3]+new[4])
+    print(n)
+    print(k)
     if n == k:
         print(1)
     if k > n:
