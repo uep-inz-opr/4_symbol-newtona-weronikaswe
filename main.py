@@ -12,7 +12,8 @@ if len(new)==3:
     else:
         x = math.factorial(n)
         y = math.factorial(k)
-        sym = x//(y*(n-k))
+        z = math.factorial(n-k)
+        sym = x//(y*z)
         print((sym))
 elif len(new)==5:
     n = int(new[0]+new[1])
@@ -24,7 +25,10 @@ elif len(new)==5:
     else:
         x = math.factorial(n)
         y = math.factorial(k)
-        sym = x//(y*(n-k))
+        z = math.factorial(n - k)
+        sym = x//(y*z)
         print((sym))
 else:
     print(0)
+
+
