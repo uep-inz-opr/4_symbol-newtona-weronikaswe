@@ -1,34 +1,25 @@
 import math
 
-new = input()
 
-if len(new)==3:
-    n = int(new[0])
-    k = int(new[2])
-    if n == 1 or n == k:
-        print(1)
-    if k > n:
-        print(0)
-    else:
+def symbol(n,k):
+    if len(symbol) == 3:
+        n = symbol[0]
+        k = symbol[2]
         x = math.factorial(n)
         y = math.factorial(k)
         z = math.factorial(n-k)
-        sym = x//(y*z)
-        print((sym))
-elif len(new)==5:
-    n = int(new[0]+new[1])
-    k = int(new[3]+new[4])
-    if n == k:
-        print(1)
-    if k > n:
-        print(0)
-    else:
+        wynik = x//(y*z)
+    elif len(symbol) == 5:
+        n = int(symbol[0] + symbol[1])
+        k = int(symbol[3] + symbol[4])
         x = math.factorial(n)
         y = math.factorial(k)
-        z = math.factorial(n - k)
-        sym = x//(y*z)
-        print((sym))
-else:
-    print(0)
+        z = math.factorial(n-k)
+        wynik = x // (y * z)
+    return wynik
+
+def main():
+    symbol(input())
+    print(wynik)
 
 
