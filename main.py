@@ -21,8 +21,8 @@ def ile_symbol(n,k):
 
 symbol = input()
 if len(symbol) == 3:
-    n = symbol[0]
-    k = symbol[2]
+    n = int(symbol[0])
+    k = int(symbol[2])
 elif len(symbol) == 5:
     n = int(symbol[0] + symbol[1])
     k = int(symbol[3] + symbol[4])
