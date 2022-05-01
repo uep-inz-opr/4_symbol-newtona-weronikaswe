@@ -15,7 +15,6 @@ if len(new)==3:
         sym = x//(y*(n-k))
         print((sym))
 elif len(new)==5:
-    print(new)
     n = int(new[0]+new[1])
     k = int(new[3]+new[4])
     if n == k:
