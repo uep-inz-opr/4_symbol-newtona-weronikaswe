@@ -17,7 +17,7 @@ if len(new)==3:
 elif len(new)==5:
     n = int(new[0:1])
     k = int(new[3:4])
-    if n == 1 or n == k:
+    if n == k:
         print(1)
     if k > n:
         print(0)
